@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlegreFit</title>
+    <link rel="stylesheet" href="diseño.css">
+    <link rel="icon" href="Logo.png" type="image/png">
+    <script src="https://kit.fontawesome.com/6a48863bf7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="barraNavegacion">
+    <div class="reproductor">
+        <audio id="musica" autoplay loop muted>
+            <source src="sonido.mp3" type="audio/mpeg">
+        </audio>
+        <button id="botonVolumen">
+            <i id="iconoVolumen" class="fa-solid fa-volume-off"></i>
+        </button>
+    </div>
+    <ul>
+        <a class="redSocial" href="https://www.instagram.com/alegrefit?igsh=MTRmNnVnMndqZTk4dA%3D%3D&utm_source=qr">
+            <i id="conoInstagram" class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="redSocial" href="https://wa.link/j3c24m">
+            <i id="iconoWhatsApp" class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a class="redSocial" href="https://www.tiktok.com/@ezequielcaballer90?_r=1&_t=ZS-97e2O7mbxkC">
+            <i id="iconoTikTok"class="fa-brands fa-tiktok"></i>
+        </a>
+        <li><a href="#incio">Inicio</a></li>
+        <li><a href="#sobreMi">Sobre mí</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+        </div>
+    </ul>
+</nav>
+
+    <script src="barra.js"></script>
+
+    <section id="inicio">
+    </section>
+
+    <section id="presentacion">
+        <div class="texto">
+            <div id="titulo">
+                <h2>Quién soy</h2>
+            </div>
+            <div class="informacion">
+                <p>Mi nombre es Ezequiel Caballero, tengo 33 años y soy Instructor Personal.</p>
+                <p>Me dedico al entrenamiento personalizado enfocado en VOS, no importa la edad que tengas.</p>
+                <p>Trabajo lo que es el cuidado del cuerpo y la adaptación de uno mismo.</p>
+                <p>Si estás acá es porque te interesa entrenar y que tengas un tiempo para usarlo al máximo.</p>
+                <p>Así que nada... ¡ARRANQUEMOS!</p>
+            </div>
+        </div>
+
+        <div class="video">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <!-- Frente -->
+                    <div class="flip-card-front">
+                        <img src="presentacion.png" alt="Presentación">
+                    </div>
+                    <!-- Dorso -->
+                    <div class="flip-card-back">
+                        <video class="videoCard" autoplay muted loop playsinline controls>
+                            <source src="presentacion.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="video.js"></script>
+    <section class="planes">
+
+        <div class="encabezado">
+            <h2>Clases Personalizadas</h2>
+        </div>
+
+        <div class="contenedor-cards">
+
+            <article class="card">
+
+                <img src="tarjeta1.png" alt="">
+
+                <div class="overlay"></div>
+
+                <div class="contenido">
+
+                    <h3>
+                        CLASE
+                        <span>INDIVIDUAL</span>
+                    </h3>
+
+                    <div class="linea"></div>
+
+                    <i class="fa-regular fa-user icono"></i>
+
+                    <p>
+                        Entrenamiento 100% personalizado,
+                        enfocado en tu cuerpo, tu ritmo
+                        y tu bienestar.
+                    </p>
+
+                </div>
+
+            </article>
+
+            <article class="card">
+
+                <img src="tarjeta2.png" alt="">
+
+                <div class="overlay"></div>
+
+                <div class="contenido">
+
+                    <h3>
+                        PACK
+                        <span>8 CLASES</span>
+                    </h3>
+
+                    <div class="etiqueta">
+                        2 VECES POR SEMANA
+                    </div>
+
+                    <i class="fa-regular fa-calendar icono"></i>
+
+                    <p>
+                        Constancia que crea hábitos.
+                        Mejorás tu energía, empezás
+                        a ver cambios y sostenés
+                        el progreso en el tiempo.
+                    </p>
+
+                </div>
+
+            </article>
+
+            <article class="card">
+
+                <img src="tarjeta3.png" alt="">
+
+                <div class="overlay"></div>
+
+                <div class="contenido">
+
+                    <h3>
+                        PACK
+                        <span>12 CLASES</span>
+                    </h3>
+
+                    <div class="etiqueta">
+                        3 VECES POR SEMANA
+                    </div>
+
+                    <i class="fa-solid fa-chart-line icono"></i>
+
+                    <p>
+                        Mayor frecuencia,
+                        mejores resultados.
+                        Desarrollás fuerza,
+                        resistencia y transformás
+                        tu cuerpo.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="faq">
+
+        <div id="tituloP"  class="encabezado">
+            <h2>Preguntas Frecuentes</h2>
+        </div>
+
+        <!-- Categoría -->
+
+        <div class="categoria">
+
+            <button class="categoria-btn">
+                SOBRE EL ENTRENAMIENTO
+                <span>+</span>
+            </button>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Necesito experiencia previa para empezar?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            No. El entrenamiento se adapta a vos desde el primer día, sin importar tu nivel.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Qué pasa si hace mucho que no entreno?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            No hay problema. Justamente empezamos de forma progresiva para que tu cuerpo vuelva a activarse sin sobrecargas.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Los entrenamientos son muy exigentes?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Son exigentes según tu nivel. La idea no es llevarte al límite, sino hacerte progresar de forma segura y sostenida.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Se entrena solo o en grupo?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Podés entrenar de forma individual o en pequeños grupos, siempre con seguimiento personalizado.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Qué tipo de ejercicios se realizan?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Trabajamos fuerza, movilidad, coordinación y resistencia, combinando distintos ejercicios según tus objetivos.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Segunda categoría -->
+
+        <div class="categoria">
+
+            <button class="categoria-btn">
+                SALUD Y ENFOQUE
+                <span>+</span>
+            </button>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿El entrenamiento está enfocado en la salud o en lo estético?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            El enfoque principal es la salud. Los cambios físicos llegan como consecuencia de hacer las cosas bien.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Trabajás postura y técnica?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Sí. La postura y la técnica son la base para entrenar mejor, evitar lesiones y obtener resultados reales.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Se tienen en cuenta lesiones o molestias?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Siempre. Cada entrenamiento se adapta a tu cuerpo y a tus necesidades.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Puedo entrenar si tengo dolor de rodilla/espalda?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Sí, pero de forma adaptada. El objetivo es mejorar esas molestias, no empeorarlas.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="categoria">
+
+            <button class="categoria-btn">
+                RESULTADOS Y PROCESO
+                <span>+</span>
+            </button>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿En cuánto tiempo voy a ver resultados?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Depende de tu constancia. Con continuidad, los cambios empiezan a notarse en pocas semanas.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Qué tipo de resultados puedo esperar?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Más fuerza, mejor postura, más energía y cambios físicos progresivos.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿El objetivo es bajar de peso o mejorar hábitos?*
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            El objetivo es mejorar tus hábitos. El cuerpo cambia cuando sostenés un proceso en el tiempo.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="categoria">
+
+            <button class="categoria-btn">
+                ORGANIZACIÓN
+                <span>+</span>
+            </button>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Cuántas veces por semana se entrena?*
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Se recomienda entre 2 y 3 veces por semana para lograr resultado
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Cuánto dura cada sesión?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Cada clase dura aproximadamente 60 minutos.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="preguntas">
+
+                <div class="pregunta">
+
+                    <button class="pregunta-btn">
+                        ¿Dónde se realizan los entrenamientos?
+                        <span>+</span>
+                    </button>
+
+                    <div class="respuesta">
+                        <p>
+                            Los entrenamientos se realizan en un espacio preparado para trabajar de forma cómoda y segura.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <script src="preguntas.js"></script>
+        <footer class="pie">
+            <div class="linea"></div>
+            <div class="final">
+                <p>
+                    © 2026 - AlegreFit
+                </p>
+                <p>
+                    Todos los derechos reservados
+                </p>
+                <p>
+                    Gracias por visitarnos
+                </p>
+                <img src="/Logo.png" height="120px" width="120px" alt="">
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
